@@ -1,6 +1,6 @@
-# Gapminder Offline  
+# Dice  
 
-With Gapminder Offline you can show animated statistics from your own laptop!
+With Dice you can show animated statistics from your own laptop!
 
 • You can use it without internet access  
 • You can visualise your own data with it or even combine it with the datasets provided (examples & instructions)  
@@ -84,7 +84,7 @@ npm i
 ### Running the app with debugger open  
 
 ```
-"./Gapminder Offline" dev
+"./Dice" dev
 ```
 
 Example on Mac, since apps are really just folders:  

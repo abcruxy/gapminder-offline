@@ -4,10 +4,10 @@ var startMenuLinkInstall
 var startMenuLinkUnInstall
 
 !macro setUninstallLinkVars
-  StrCpy $desktopLinkInstall "$desktop\Gapminder Offline.lnk"
-  StrCpy $startMenuDir "$SMPROGRAMS\Gapminder Offline"
-  StrCpy $startMenuLinkInstall "$startMenuDir\Gapminder Offline.lnk"
-  StrCpy $startMenuLinkUnInstall "$startMenuDir\Uninstall Gapminder Offline.lnk"
+  StrCpy $desktopLinkInstall "$desktop\Dice.lnk"
+  StrCpy $startMenuDir "$SMPROGRAMS\Dice"
+  StrCpy $startMenuLinkInstall "$startMenuDir\Dice.lnk"
+  StrCpy $startMenuLinkUnInstall "$startMenuDir\Uninstall Dice.lnk"
 !macroend
 
 !macro customHeader
@@ -28,10 +28,10 @@ var startMenuLinkUnInstall
 !macroend
 
 !macro customInstall
-  CreateShortcut "$desktopLinkInstall" "$INSTDIR\Gapminder Offline.exe"
+  CreateShortcut "$desktopLinkInstall" "$INSTDIR\Dice.exe"
   CreateDirectory "$startMenuDir"
-  CreateShortcut "$startMenuLinkInstall" "$INSTDIR\Gapminder Offline.exe"
-  CreateShortcut "$startMenuLinkUnInstall" "$INSTDIR\Uninstall Gapminder Offline.exe"
+  CreateShortcut "$startMenuLinkInstall" "$INSTDIR\Dice.exe"
+  CreateShortcut "$startMenuLinkUnInstall" "$INSTDIR\Uninstall Dice.exe"
 !macroend
 
 !macro customUnInit

@@ -34,7 +34,7 @@
     </div>
   </div>
   <div *ngIf="!!error || !!datasetError">
-    <div class="label">{{'Sorry, autoupdate broke, please uninstall Gapminder Offline and install the new version' | translate}}
+    <div class="label">{{'Sorry, autoupdate broke, please uninstall Dice and install the new version' | translate}}
       <a href="#" (click)="openURL('https://www.gapminder.org/tools-offline/')">{{'from here' | translate}}</a>
       <span>
       <input type="button" (click)="resetError()" value="{{'Cancel' | translate}}" class="btn btn-margin" />

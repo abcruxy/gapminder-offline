@@ -1,8 +1,8 @@
 {
   "name": "gapminder-offline",
   "version": "5.0.0",
-  "description": "Gapminder Tools Offline",
-  "productName": "Gapminder Tools Offline",
+  "description": "Dice",
+  "productName": "Dice",
   "author": "Gapminder <ola@gapminder.org>",
   "repository": {
     "type": "git",

@@ -4,7 +4,7 @@
     "export-template/**/*",
     "preview-data/**/*"
   ],
-  "productName": "Gapminder Offline",
+  "productName": "Dice",
   "directories": {
     "output": "app-builds"
   },
@@ -63,7 +63,7 @@
     "createStartMenuShortcut": false
   },
   "dmg": {
-    "title": "Gapminder Offline",
+    "title": "Dice",
     "icon": "icons/gapminder_package.icns",
     "background": "icons/gapminder.png",
     "window": {
@@ -85,8 +85,8 @@
   "fileAssociations": [
     {
       "ext": "gmstat",
-      "name": "Gapminder offline chart",
-      "description": "Gapminder offline chart",
+      "name": "Dice chart",
+      "description": "Dice chart",
       "role": "Viewer"
     }
   ]
