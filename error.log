@@ -1,0 +1,4 @@
+2020-09-10T15:55:02.768Z- SyntaxError: SyntaxError: Unexpected token ; in JSON at position 12
+    at JSON.parse (<anonymous>)
+    at /Users/adrianbarrett/Documents/GitHub/gapminder-offline/file-management.ts:202:25
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:61:3)
