@@ -1,16 +1,16 @@
 WORDS USED BELOW
 
-"Dice" — this software
+"Gapminder offline" — this software
 "Gapminder", or "we" — Stiftelsen Gapminder <http://www.gapminder.org/>
-"you" — anyone who uses "Dice"
+"you" — anyone who uses "Gapminder offline"
 
 HANDLING OF YOUR DATA
 
-"Dice" does not collect or share or transmit any data provided by you. 
-By design of "Dice" all your data stays local on your computer UNLESS 
+"Gapminder offline" does not collect or share or transmit any data provided by you. 
+By design of "Gapminder offline" all your data stays local on your computer UNLESS 
 you yourself or some third party software shares it, with or without your 
 knowledge. This means, your data is secure as much as your computer is secure. 
-"Dice" doesn't make your system less secure but also doesn't 
+"Gapminder offline" doesn't make your system less secure but also doesn't 
 guarantee it already is. Gapminder assumes no responsibility if your data gets lost 
 or damaged or stolen or misinterpreted.
 
@@ -25,7 +25,7 @@ and research that you may produce with the help of our tools.
 
 UPDATING THE SOFTWARE
 
-By using our "Dice" software you agree to update it whenever it propmpts 
+By using our "Gapminder offline" software you agree to update it whenever it propmpts 
 the updates are available. If the updates don't work for you for some reason you can roll back 
 to a previous version in the menu -> check for updates. But do also complain to us via Get Satisfaction 
 (https://getsatisfaction.com/gapminder/) so that we can try our best and make updates work for you.

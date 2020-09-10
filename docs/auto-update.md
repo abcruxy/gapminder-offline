@@ -18,7 +18,7 @@ according to instructions.
 This kind of update should be applied for minor (semver) update. For example, from 0.44.10 to 0.45.0.
 In this case all parts of the application should be updated. Auto update system will use next url for data getting: 
 
-`http://s3-eu-west-1.amazonaws.com/gapminder-offline/#version#/Dice-#type#.zip`
+`http://s3-eu-west-1.amazonaws.com/gapminder-offline/#version#/Gapminder Offline-#type#.zip`
 
 Where `#version#` is expected application version.
 
@@ -32,7 +32,7 @@ Where `#version#` is expected application version.
 Parts of the application:
 
 * V8 and electron libraries
-* `Dice` scripts
+* `gapminder offline` scripts
 * Inner DDF dataset
 
 
@@ -40,11 +40,11 @@ Parts of the application:
 
 This kind of update should be applied for patch (semver) updates. For example, from 0.44.10 to 0.44.11. 
 
-In this case only `Dice` application data (see above) or `inner DDF dataset update` would be updated. 
+In this case only `gapminder offline` application data (see above) or `inner DDF dataset update` would be updated. 
 
 Auto update system will use next url for data getting: 
 
-`http://s3-eu-west-1.amazonaws.com/gapminder-offline/#version#/partial/Dice-#type#.zip` 
+`http://s3-eu-west-1.amazonaws.com/gapminder-offline/#version#/partial/Gapminder Offline-#type#.zip` 
 (see ‘Build’ paragraph above)
 
 ### Inner DDF dataset update

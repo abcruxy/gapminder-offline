@@ -1,4 +1,4 @@
-# How to build and publish Dice
+# How to build and publish Gapminder Offline
 
 ## Expected software for build process provides:
 

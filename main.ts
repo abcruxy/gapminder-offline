@@ -117,7 +117,7 @@ function createWindow() {
 
   ipc.on(globConst.DATASET_RELOAD, () => {
     dataPackage = requireUncached(path.resolve(datasetPath, 'datapackage.json'));
-    mainWindow.setTitle(`Dice v.${app.getVersion()} (dataset v.${dataPackage.version})`);
+    mainWindow.setTitle(`Gapminder Tools Offline v.${app.getVersion()} (dataset v.${dataPackage.version})`);
     mainWindow.reload();
   });
 
@@ -166,7 +166,7 @@ function createWindow() {
   });
 
   ipc.on(globConst.GET_VERSIONS_INFO, () => {
-    mainWindow.setTitle(`Dice v.${app.getVersion()} (dataset v.${dataPackage.version})`);
+    mainWindow.setTitle(`Gapminder Tools Offline v.${app.getVersion()} (dataset v.${dataPackage.version})`);
   });
 
   ipc.on(globConst.RELOAD_MAIN_WINDOW, () => {

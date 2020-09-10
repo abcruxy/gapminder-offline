@@ -8,11 +8,11 @@ let binary;
 if (platform === 'linux') {
   binary = `${__dirname}/../app-builds/linux-unpacked/gapminder-offline`;
 } else if (platform === 'win32' && arch === 'x64') {
-  binary = `${__dirname}\\..\\app-builds\\win-unpacked\\Dice.exe`;
+  binary = `${__dirname}\\..\\app-builds\\win-unpacked\\Gapminder Offline.exe`;
 } else if (platform === 'win32' && arch === 'ia32') {
-  binary = `${__dirname}\\..\\app-builds\\win-ia32-unpacked\\Dice.exe`;
+  binary = `${__dirname}\\..\\app-builds\\win-ia32-unpacked\\Gapminder Offline.exe`;
 } else {
-  binary = `${__dirname}/../app-builds/mac/Dice.app/Contents/MacOS/Dice`;
+  binary = `${__dirname}/../app-builds/mac/Gapminder Offline.app/Contents/MacOS/Gapminder Offline`;
 }
 
 exports.config = {
