@@ -167,12 +167,12 @@ export class RecorderComponent implements OnInit, OnDestroy {
     const mm = ('0' + dateNow.getMinutes()).slice(-2);
     const ss = ('0' + dateNow.getSeconds()).slice(-2);
     const dateString = `${y}${m}${d}-${hh}${mm}${ss}`;
-    return `Gapminder Offline Screen-${dateString}`;
+    return `Dice Screen-${dateString}`;
   }
 
   private async getCurrentWindowMediaSource(): Promise<CurrentMediaSource> {
     return new Promise((resolve: Function, reject: Function) => {
-      const nativeWindowPrefix = 'Gapminder Offline v';
+      const nativeWindowPrefix = 'Dice v';
 
       desktopCapturer.getSources({types: ['window']}).then((sources) => {
         let currentSource;
